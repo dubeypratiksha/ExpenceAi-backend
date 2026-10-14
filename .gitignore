@@ -1,0 +1,70 @@
+HELP.md
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.env.local
+
+# Local Spring configuration
+application-local.yml
+application-dev.yml
+application-local.yaml
+application-dev.yaml
+
+# Build output
+/target/
+
+# Logs
+*.log
+
+# Project-specific files
+/apis.md
+/commands.md
+/.learnings/
+/setup_db.sh
+
+# Local secrets and configuration inside resources
+src/main/resources/.env
+src/main/resources/.env.*
+!src/main/resources/.env.example
+src/main/resources/application-dev.yml
+src/main/resources/application-local.yml
+src/main/resources/application-dev.yaml
+src/main/resources/application-local.yaml
